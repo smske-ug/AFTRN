@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101610" />
+  <meta name="description" content="Jelajahi semua catatan afterain // lifelog, cari kata, dan telusuri berdasarkan tag." />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="alternate" type="application/rss+xml" title="afterain // lifelog RSS" href="/rss.xml" />
+  <link rel="canonical" href="__SITE_URL__/archive.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="afterain // lifelog" />
+  <meta property="og:title" content="Semua Tulisan — afterain // lifelog" />
+  <meta property="og:description" content="Arsip catatan kecil yang disimpan setelah hujan." />
+  <meta property="og:url" content="__SITE_URL__/archive.html" />
+  <meta property="og:image" content="__SITE_URL__/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Semua Tulisan — afterain // lifelog" />
+  <meta name="twitter:description" content="Arsip catatan kecil yang disimpan setelah hujan." />
+  <meta name="twitter:image" content="__SITE_URL__/og-image.png" />
+  <title>Semua Tulisan — afterain // lifelog</title>
+  <style>
+    :root{color-scheme:dark;--paper:#f1f0e7;--muted:rgba(241,240,231,.62);--line:rgba(241,240,231,.15);--moss:#dce6b1}
+    *{box-sizing:border-box}html{min-height:100%;background:#111810}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -15%,rgba(139,165,112,.14),transparent 53%),#111810;color:var(--paper);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    a{color:inherit}.shell{width:min(900px,calc(100% - 40px));margin:0 auto;padding:clamp(30px,6vw,72px) 0 70px}.top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-bottom:22px;border-bottom:1px solid var(--line)}.brand{font-size:10px;letter-spacing:.19em;text-transform:uppercase;text-decoration:none}.nav{display:flex;gap:18px;flex-wrap:wrap;justify-content:flex-end}.nav a{font-size:9px;color:var(--muted);letter-spacing:.12em;text-transform:uppercase;text-decoration:none}.nav a:hover{color:white}
+    .eyebrow{margin:45px 0 12px;color:var(--moss);font-size:9px;letter-spacing:.25em;text-transform:uppercase}.title{margin:0;font:italic 400 clamp(34px,7vw,65px)/1.08 Georgia,serif;letter-spacing:-.055em}.intro{max-width:540px;margin:17px 0 30px;color:var(--muted);font:italic 15px/1.8 Georgia,serif}
+    .controls{padding:18px 0 23px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.search{width:100%;padding:15px 0;border:0;border-bottom:1px solid rgba(241,240,231,.28);border-radius:0;outline:none;background:transparent;color:var(--paper);font:14px Georgia,serif}.search::placeholder{color:rgba(241,240,231,.38)}.resultline{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:16px;color:var(--muted);font-size:9px;letter-spacing:.15em;text-transform:uppercase}.quiet-button{border:0;background:none;color:var(--muted);font:inherit;letter-spacing:inherit;text-transform:inherit;cursor:pointer}.quiet-button:hover{color:white}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}.tag{padding:6px 10px;border:1px solid rgba(241,240,231,.2);border-radius:999px;background:transparent;color:rgba(241,240,231,.67);font-size:10px;cursor:pointer}.tag:hover,.tag.active{border-color:rgba(220,230,177,.65);background:rgba(220,230,177,.08);color:var(--paper)}
+    .records{padding-top:8px}.record{padding:24px 0 27px;border-bottom:1px solid rgba(241,240,231,.12)}.date{margin-bottom:10px;color:rgba(241,240,231,.43);font-size:9px;letter-spacing:.16em;text-transform:uppercase}.record h2{margin:0 0 10px;font:400 24px/1.25 Georgia,serif;letter-spacing:-.025em}.record p{margin:0;max-width:72ch;color:rgba(241,240,231,.77);font-size:13px;line-height:1.9;white-space:pre-wrap;overflow-wrap:anywhere;text-align:justify;text-justify:inter-word}.record-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:13px}.record-tags span{color:rgba(220,230,177,.7);font-size:9px;letter-spacing:.04em}.actions{display:flex;flex-wrap:wrap;gap:18px;margin-top:15px}.actions a,.actions button{border:0;background:none;padding:0;color:rgba(241,240,231,.52);font-size:9px;text-transform:uppercase;letter-spacing:.14em;text-decoration:none;cursor:pointer}.actions a:hover,.actions button:hover{color:white}.empty,.status{padding:35px 0;color:var(--muted);font:italic 14px/1.8 Georgia,serif}.foot{margin-top:42px;padding-top:17px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:15px;color:rgba(241,240,231,.35);font-size:9px;letter-spacing:.11em;text-transform:uppercase}
+    @media(max-width:550px){.shell{width:calc(100% - 32px)}.top{align-items:flex-start;flex-direction:column}.nav{justify-content:flex-start}.record h2{font-size:21px}.foot{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="top"><a class="brand" href="/">afterain // lifelog</a><nav class="nav" aria-label="Navigasi utama"><a href="/">beranda</a><a href="/about.html">about</a><a href="/rss.xml">RSS ↗</a></nav></header>
+    <p class="eyebrow">arsip lengkap · semua tulisan</p>
+    <h1 class="title">things we kept.</h1>
+    <p class="intro">Semua catatan, potongan pikiran, dan hal-hal kecil yang memilih tinggal. Cari dengan kata atau telusuri lewat tag.</p>
+    <section class="controls" aria-label="Cari dan saring tulisan">
+      <input class="search" id="search" type="search" placeholder="Cari judul, isi, atau tag…" aria-label="Cari tulisan" />
+      <div class="resultline"><span id="count" aria-live="polite">Memuat arsip…</span><button class="quiet-button" id="clear" type="button">hapus filter</button></div>
+      <div class="tags" id="tags" aria-label="Tag tulisan"></div>
+    </section>
+    <section class="records" id="records" aria-live="polite"><p class="status">Mengumpulkan tulisan dari arsip Drive…</p></section>
+    <footer class="foot"><span>afterain · sebuah lifelog kecil</span><span>even the rain needs somewhere to go.</span></footer>
+  </main>
+  <script>
+    (() => {
+      const $ = selector => document.querySelector(selector);
+      const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+      const tagsOf = note => Array.isArray(note.tags) ? note.tags.filter(tag => typeof tag === 'string' && tag.trim()).slice(0,10) : [];
+      const dateOf = value => { const date = new Date(Number(value) || value); return Number.isNaN(date.getTime()) ? 'waktu yang tenang' : date.toLocaleString('id-ID',{day:'numeric',month:'long',year:'numeric'}); };
+      const urlFor = note => { const url = new URL('/',location.href); url.searchParams.set('entry',String(note.id)); return `${url.pathname}${url.search}`; };
+      let notes = [], activeTag = '', search = '';
+      function renderTags() {
+        const all = [...new Set(notes.flatMap(tagsOf))].sort((a,b)=>a.localeCompare(b,'id'));
+        $('#tags').innerHTML = `<button type="button" class="tag ${activeTag ? '' : 'active'}" data-tag="">semua tag</button>` + all.map(tag=>`<button type="button" class="tag ${activeTag.toLocaleLowerCase('id')===tag.toLocaleLowerCase('id')?'active':''}" data-tag="${escapeHTML(tag)}">${escapeHTML(tag)}</button>`).join('');
+      }
+      function render() {
+        renderTags();
+        const query = search.trim().toLocaleLowerCase('id');
+        const filtered = notes.filter(note => {
+          const searchable = [note.title || '',note.body || '',...tagsOf(note)].join(' ').toLocaleLowerCase('id');
+          return (!query || searchable.includes(query)) && (!activeTag || tagsOf(note).some(tag=>tag.toLocaleLowerCase('id')===activeTag.toLocaleLowerCase('id')));
+        });
+        $('#count').textContent = `${filtered.length} dari ${notes.length} tulisan`;
+        if (!filtered.length) { $('#records').innerHTML = '<p class="empty">Belum ada tulisan yang cocok. Coba kata lain atau hapus filter.</p>'; return; }
+        $('#records').innerHTML = filtered.map(note => {
+          const tags = tagsOf(note);
+          const body = String(note.body || '');
+          const excerpt = body.length > 1200 ? `${body.slice(0,1200).trim()}…` : body;
+          return `<article class="record"><div class="date">${escapeHTML(dateOf(note.created || note.createdAt || note.updatedAt))}</div><h2>${escapeHTML(note.title || 'tanpa judul')}</h2><p>${escapeHTML(excerpt)}</p>${tags.length ? `<div class="record-tags">${tags.map(tag=>`<span>#${escapeHTML(tag)}</span>`).join('')}</div>` : ''}<div class="actions"><a href="${escapeHTML(urlFor(note))}">buka tulisan ↗</a><button type="button" data-copy="${escapeHTML(note.id)}">salin tautan</button></div></article>`;
+        }).join('');
+      }
+      $('#search').addEventListener('input',event=>{search=event.target.value;render();});
+      $('#clear').addEventListener('click',()=>{search='';activeTag='';$('#search').value='';const url=new URL(location.href);url.search='';history.replaceState({},'',url.pathname);render();});
+      $('#tags').addEventListener('click',event=>{const button=event.target.closest('[data-tag]');if(!button)return;activeTag=button.dataset.tag||'';const url=new URL(location.href);if(activeTag)url.searchParams.set('tag',activeTag);else url.searchParams.delete('tag');history.replaceState({},'',`${url.pathname}${url.search}`);render();});
+      $('#records').addEventListener('click',async event=>{const button=event.target.closest('[data-copy]');if(!button)return;const note=notes.find(item=>String(item.id)===button.dataset.copy);if(!note)return;const link=new URL(urlFor(note),location.origin).href;try{await navigator.clipboard.writeText(link);button.textContent='tautan tersalin';}catch(_){window.prompt('Salin tautan tulisan ini:',link);}});
+      async function load() {
+        const requestedTag = new URLSearchParams(location.search).get('tag'); if(requestedTag)activeTag=requestedTag;
+        try {
+          const response = await fetch('/.netlify/functions/archive',{headers:{Accept:'application/json'},cache:'no-store'});
+          if(!response.ok)throw new Error('Endpoint arsip belum tersedia.');
+          const archive=await response.json(); notes=Array.isArray(archive.notes)?archive.notes:[];
+          notes.sort((a,b)=>(Number(b.created||b.createdAt||b.updatedAt)||0)-(Number(a.created||a.createdAt||a.updatedAt)||0)); render();
+        } catch(error) { $('#count').textContent='arsip belum tersambung'; $('#records').innerHTML='<p class="status">Arsip belum bisa dimuat. Pastikan Netlify Function dan URL Google Apps Script sudah dikonfigurasi.</p>'; }
+      }
+      load();
+    })();
+  </script>
+</body>
+</html>
